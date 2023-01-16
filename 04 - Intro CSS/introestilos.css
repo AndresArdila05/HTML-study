@@ -1,0 +1,51 @@
+/* Estilos para colores*/
+/* coolors.co */
+.colores {
+    color:red;
+}
+
+.color-hexa {
+    color: #DC851F;
+}
+
+.color-rgb {
+    color:rgb(25, 52, 150);
+}
+
+.color-rgba {
+    color:rgba(25, 120, 100, 0.5)
+}
+
+/* Fondos */
+.fondo {
+    background-color: pink;
+    background-image: url("https://fondosmil.com/fondo/16641.jpg");
+    background-position: right bottom; /*posicion de la imagen fondo*/
+}
+
+.fondo-interno {
+    background-image: url("Fondoej.jpg");
+    background-position: left bottom;
+}
+
+/* Tamaños */
+.ancho {
+    background-color: blueviolet;
+    width: 150px;
+}
+
+.alto {
+    background-color: aquamarine;
+    height: 200px;
+}
+
+.tarjeta {
+    border-style: solid;
+    border-color: coral;
+    border-width: 2px;
+    /*padding-left: 10px; espacio interno respecto al borde*/
+    /*border-top: none;  NONE SE USA PARA ELIMINAR O DESAPARECER COSAS*/
+    /*padding-top: 10px; puede ser arriba, abajo, derecha, izquierda*/
+    padding: 10px 20px; /*puedo ponerlos en orden de las agujas del reloj*/
+    margin: 10px; /*el margen de la tarjeta o del div, respecto a los demás elementos de la página*/
+}

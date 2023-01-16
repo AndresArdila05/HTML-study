@@ -1,0 +1,38 @@
+h1 {
+    color:red;
+}
+
+/*Estoy probado colores y fuentes*/
+/*Los selectores permiten que cada parrafo, titulo, etc tenga su estilo*/
+p {
+    color:blue;
+    font-size: 16pt;
+}
+
+/*selectores de id*/
+/*el p ayuda a que el id se aplique solo a los parrafos*/
+p#primera-noticia {
+    color:green;
+    font-size: 12pt;
+}
+
+#segunda-noticia{
+    /*color:blueviolet;*/
+    font-size: 18;
+}
+
+/*selectores de clase*/
+.encabezado {
+    font-size: 24pt;
+    text-transform: uppercase;
+}
+
+/*el asterisco aplica el atributo a todo, selector universal con clases o id o nada*/
+*.warning {
+    color:rgb(255, 0, 0);
+}
+
+.autor, .fecha, .ubicacion{
+    text-decoration: underline;
+}
+
