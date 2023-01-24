@@ -1,0 +1,14 @@
+.boton1:hover {
+    color: white;
+    background-color: green;
+    content: "hola";
+}
+
+.boton1 {
+    visibility: hidden;
+}
+
+.boton1::before {
+    content: "¡Hecho!";
+    visibility: visible;
+}
