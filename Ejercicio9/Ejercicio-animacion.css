@@ -1,0 +1,28 @@
+.btn-modern {
+    background-color: aqua;
+    /*animation: anim 0.4s ease-in-out forwards;*/
+    /*animation-play-state: paused;*/
+    border-radius: 10px;
+    outline: none;
+    border:none;
+    width: 100px;
+    height: 50px;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:cornsilk;
+    width: 500px;
+    height: 500px;
+}
+
+.btn-modern:hover {
+    /*animation-play-state:running;*/
+    transform: translateY(-5px);
+    background-color: blueviolet;
+    color: azure;
+    box-shadow: 0 0 10px black;
+    transition: background-color 0.4s, border 0.4s, box-shadow 0.4s, transform 0.4s;
+}
